@@ -11,7 +11,7 @@ class Curl < Formula
   desc "Get a file from an HTTP, HTTPS or FTP server w/http3 support using quiche"
   homepage "https://curl.haxx.se/"
   url "https://curl.haxx.se/download/curl-7.70.0.tar.bz2"
-  sha256 "ca2feeb8ef13368ce5d5e5849a5fd5e2dd4755fecf7d8f0cc94000a4206fb8e7"
+  sha256 "a50bfe62ad67a24f8b12dd7fd655ac43a0f0299f86ec45b11354f25fbb5829d0"
 
   head do
     url "https://github.com/curl/curl.git"
