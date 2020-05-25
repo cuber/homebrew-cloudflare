@@ -10,8 +10,8 @@
 class Curl < Formula
   desc "Get a file from an HTTP, HTTPS or FTP server w/http3 support using quiche"
   homepage "https://curl.haxx.se/"
-  url "https://curl.haxx.se/download/curl-7.67.0.tar.bz2"
-  sha256 "dd5f6956821a548bf4b44f067a530ce9445cc8094fd3e7e3fc7854815858586c"
+  url "https://curl.haxx.se/download/curl-7.70.0.tar.bz2"
+  sha256 "ca2feeb8ef13368ce5d5e5849a5fd5e2dd4755fecf7d8f0cc94000a4206fb8e7"
 
   head do
     url "https://github.com/curl/curl.git"
@@ -26,7 +26,7 @@ class Curl < Formula
   depends_on "pkg-config" => :build
   uses_from_macos "openssl"
 
-  depends_on "rust" => ["1.39.0", :build]
+  depends_on "rust" => ["1.41.0", :build]
   depends_on "cmake" => :build
   depends_on "go" => :build
 
